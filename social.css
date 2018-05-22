@@ -1,0 +1,39 @@
+/*main styling (for mobile devices 350 and less)*/
+
+body {
+    background: linear-gradient(to right, white, blue);
+    font-family: 'Open Sans', sans-serif;  
+    text-align: center;
+}
+
+h1 {
+    font-weight: 400;
+    text-align: center;
+    
+}
+
+form {
+    background: ;
+}
+
+.post-List {
+    background: white;
+}
+
+
+input {
+
+    font-family: 'Open Sans', sans-serif; 
+    width: 50%;
+    
+}
+
+
+
+
+
+/*styling for devices over 768px*/
+@media only screen and (min-device-width : 768px) {
+    
+
+}
