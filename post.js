@@ -8,7 +8,7 @@ const post = {
   // the paragraph on line 12 will be hidden until the contactList has 1 element(or more)
   template: `
   <section>
-    <div expand ng-repeat="entry in $ctrl.postList"> {{ entry.postSubject }} {{ entry.postBody }}</div>
+    <div ng-repeat="entry in $ctrl.postList"> {{ entry.postSubject }} {{ entry.postBody }}</div>
    
   </section>
   `,
